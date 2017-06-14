@@ -78,7 +78,7 @@
 import vapoursynth as vs
 
 
-def hysteria(clip, strength=1.0, usemask=True, lowthresh=6, highthresh=20, luma_cap=191, maxchg=255, minchg=0,
+def Hysteria(clip, strength=1.0, usemask=True, lowthresh=6, highthresh=20, luma_cap=191, maxchg=255, minchg=0,
              planes=[0], luma=True, showmask=False):
     core = vs.get_core()
     if not isinstance(clip, vs.VideoNode):
